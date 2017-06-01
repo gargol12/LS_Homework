@@ -1,0 +1,104 @@
+.navbar-custom .nav li a, .navbar-custom .navbar-brand, h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  background: transparent;
+  border: none;
+}
+
+.navbar-custom .nav li a, .navbar-custom .navbar-brand {
+  color: white;
+}
+
+.intro-header .post-heading h1 {
+  font-size: 35px;
+}
+
+.intro-header .page-heading, .intro-header .post-heading, .intro-header .site-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+
+.intro-header .page-heading .subheading, .intro-header .post-heading .subheading, .intro-header .site-heading .subheading, .navbar-custom, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.intro-header .post-heading .meta a {
+  color: white;
+}
+
+body {
+  font-family: Lora,'Times New Roman',serif;
+  font-size: 20px;
+  -webkit-tap-highlight-color: #0085A1;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+a, body {
+  color: black;
+}
+
+blockquote {
+  color: #777;
+  font-style: italic;
+}
+
+.section-heading {
+  font-size: 36px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+.caption, .intro-header .page-heading, .intro-header .site-heading, footer .copyright {
+  text-align: center;
+}
+
+.caption {
+  font-size: 14px;
+  padding: 10px;
+  font-style: italic;
+  margin: 0;
+  display: block;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px){
+  .intro-header .page-heading, .intro-header .post-heading, .intro-header .site-heading {
+    padding: 150px 0;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .intro-header .post-heading h1 {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+ .navbar-custom .nav li a {
+   color: white;
+   padding: 20px;
+  } 
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #0085A1;
+}
