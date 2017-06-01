@@ -1,3 +1,3 @@
 ## LS_Homework
 Lambda School - Mini Bootcamp. 
-May 15 - August 15
+May 15 to August 15
