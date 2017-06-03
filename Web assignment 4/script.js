@@ -1,4 +1,4 @@
-//document.body.style.backgroundColor = "red";
+document.body.style.backgroundColor = "red";
 document.getElementById("about").style.backgroundColor = "blue";
 document.getElementsByTagName("body")[0].style.fontFamily = "sans-serif";
 
